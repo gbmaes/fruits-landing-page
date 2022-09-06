@@ -14,3 +14,7 @@
     object-fit: cover;
     height: 400px;
 }
+
+.font-title {
+    font-family: 'Pacifico', cursive;
+}
