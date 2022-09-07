@@ -3,6 +3,10 @@
     top: 0;
 }*/
 
+.card-width{
+    width: 18rem;
+}
+
 .image-carousel {
     object-position: 0 80%;
     object-fit: cover;
@@ -26,4 +30,15 @@
 
 .button-color {
     background-color: darkred;
+    color: white;
+}
+
+.border-color {
+    border-color: darkred;
+}
+
+.card-position-image {
+    /*object-position: 0 80%;*/
+    object-fit: cover;
+    height: 200px;
 }
