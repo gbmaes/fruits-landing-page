@@ -13,35 +13,30 @@
 
 <body>
 
-  <header>
+<header>
     <!-- nav bar -->
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
         <a class="navbar-brand" href="#">Fruit and Fruits</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Recipes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Who we are</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Recipes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Who we are</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li> 
+          </li>
+        </ul>
       </div>
-    </nav>
-  </header>
+    </div>
+  </nav>
+</header>
   <!-- carousel -->
+<main>
+  <section>
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-interval="3000" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -72,46 +67,73 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  </section>
 
   <!-- title and subtitle -->
+  <section id="title">
   <p class="text-center font-title special-color pt-5">Recipes to save money and gain health</p>
   <p class="text-center text-secondary pb-5">Our recipes help you make better use of food, save time and gain
     practicality</p>
+  </section>
 
   <!-- cards -->
-  <div class="card border-color" style="width: 18rem;">
-    <img src="./src/img/receita-abacate.jpg" class="card-img-top" alt="avocado bowl recipe">
+  <section id="recipes">
+  <article class="card border-color card-width">
+    <img src="./src/img/receita-abacate.jpg" class="card-img-top card-position-image" alt="avocado bowl recipe">
     <div class="card-body">
       <h5 class="card-title">Avocado bowl</h5>
       <p class="card-text">Refreshing and vitamin-packed recipe for your breakfast!</p>
       <a href="#" class="btn button-color">See recipe</a>
     </div>
-  </div>
+  </article>
 
+  <article class="card border-color card-width">
+    <img src="./src/img/receita-kiwi.jpg" class="card-img-top card-position-image" alt="kiwi salad recipe">
+    <div class="card-body">
+      <h5 class="card-title">Kiwi salad</h5>
+      <p class="card-text">Refreshing and vitamin-packed recipe for your breakfast!</p>
+      <a href="#" class="btn button-color">See recipe</a>
+    </div>
+  </article>
 
+  <article class="card border-color card-width">
+    <img src="./src/img/receita-mix.jpg" class="card-img-top card-position-image" alt="vegetables recipe">
+    <div class="card-body">
+      <h5 class="card-title">Vegetables mix</h5>
+      <p class="card-text">Refreshing and vitamin-packed recipe for your breakfast!</p>
+      <a href="#" class="btn button-color">See recipe</a>
+    </div>
+  </article>
 
-  <img src="src/img/receita-kiwi.jpg" alt="tigela de mingau com kiwi, vista superior">
-  <h3>Salada de kiwi</h3>
-  <p>Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+  <article class="card border-color card-width">
+    <img src="./src/img/receita-pimentoes.jpg" class="card-img-top card-position-image" alt="peppers recipe">
+    <div class="card-body">
+      <h5 class="card-title">Peppers alla Julienne</h5>
+      <p class="card-text">Refreshing and vitamin-packed recipe for your breakfast!</p>
+      <a href="#" class="btn button-color">See recipe</a>
+    </div>
+  </article>
 
-  <img src="src/img/receita-mix.jpg" alt="prato com mix de vegetais e mão de pessoa adicionando azeite, vista superior">
-  <h3>Mix de vegetais</h3>
-  <p>Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+  <article class="card border-color card-width">
+    <img src="./src/img/receita-oriental.jpg" class="card-img-top card-position-image" alt="oriental recipe">
+    <div class="card-body">
+      <h5 class="card-title">Oriental dish</h5>
+      <p class="card-text">Refreshing and vitamin-packed recipe for your breakfast!</p>
+      <a href="#" class="btn button-color">See recipe</a>
+    </div>
+  </article>
 
-  <img src="src/img/receita-pimentoes.jpg"
-    alt="prato de salada de pimentões com alguns ingredientes ao lado, vista superior">
-  <h3>Pimentões à Juliana</h3>
-  <p>Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+  <article class="card border-color card-width">
+    <img src="./src/img/receita-beterrabas.jpg" class="card-img-top card-position-image" alt="beets recipe">
+    <div class="card-body">
+      <h5 class="card-title">Roasted beets</h5>
+      <p class="card-text">Refreshing and vitamin-packed recipe for your breakfast!</p>
+      <a href="#" class="btn button-color">See recipe</a>
+    </div>
+  </article>
 
-  <img src="src/img/receita-oriental.jpg" alt="tigela com salada de vegetais estilo oriental, vista de cima">
-  <h3>Prato oriental</h3>
-  <p>Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
-
-  <img src="src/img/receita-beterrabas.jpg"
-    alt="tigela com beterrabas e dentes de alho assados em primeiro plano, com ingredientes ao fundo">
-  <h3>Beterrabas assadas</h3>
-  <p>Receita refrescante e cheia de vitaminas para o seu café da manhã!
-  </p>
+  </section>
+</main>
 
   <p>contato:<a href="mailto:email@frutafruto.com.br">email@frutafruto.com.br</a></p>
 
