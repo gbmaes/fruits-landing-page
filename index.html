@@ -15,7 +15,7 @@
 
 <header>
     <!-- nav bar -->
-  <nav class="navbar navbar-expand-lg bg-light">
+  <nav class="navbar navbar-expand-lg bg-light fixed-top">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">Fruit and Fruits</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -27,7 +27,7 @@
           <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Recipes</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Who we are</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li> 
+          <li class="nav-item"><a class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-contact" href="#">Contact</a></li> 
           </li>
         </ul>
       </div>
@@ -136,10 +136,44 @@
   </section>
 </main>
 
+<!-- Modal -->
+<div class="modal fade" id="modal-contact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact us</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="formGroupExampleInput">Name</label>
+            <input type="text" class="form-control" placeholder="Type your full name" id="formGroupExampleInput">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Leave your feedback" rows="3"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary button-color">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
+
   <p>contato:<a href="mailto:email@frutafruto.com.br">email@frutafruto.com.br</a></p>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"></script>
+
 </body>
+
 </html>
