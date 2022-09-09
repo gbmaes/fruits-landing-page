@@ -2,6 +2,7 @@
     position: fixed;
     top: 0;
 }*/
+
 .card-width{
     max-width: 18rem;
 }
@@ -41,3 +42,4 @@
 .border-color {
     border-color: darkred;
 }
+
