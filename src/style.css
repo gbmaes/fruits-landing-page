@@ -2,6 +2,7 @@
     position: fixed;
     top: 0;
 }*/
+
 .card-width{
     max-width: 18rem;
 }
@@ -43,6 +44,7 @@
     background-color: darkred;
     color: white;
 }
+
 .border-color {
     border-color: darkred;
 }
