@@ -2,6 +2,7 @@
     position: fixed;
     top: 0;
 }*/
+
 .card-width{
     max-width: 18rem;
 }
@@ -33,6 +34,7 @@
     font-family: 'Pacifico', cursive;
     font-size: 20px;
 }
+
 .special-color {
     color: darkred!important;
     
